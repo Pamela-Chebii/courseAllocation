@@ -18,7 +18,7 @@ if (isset($_POST["submit"]) and !empty($_POST["id"])){
     if ($result){
         echo "<div class='row m-2 text-center'>";
         echo "<p class='alert alert-danger'>Record deleted Successfully</p>";
-        echo "<a class='btn btn-primary col-md-4' href='academicPrograms.php'>BACK</a>";
+        echo "<a class='btn btn-success col-md-4' href='academicPrograms.php'>BACK</a>";
         echo "</div>";
 
     }else{
@@ -38,7 +38,7 @@ if (isset($_POST["submit"]) and !empty($_POST["id"])){
                 <input type="hidden" name="id" value="<?php echo $_GET["id"]; ?>">
             </div>
             <div class="p-2 text-center">
-                <input type="submit" name="submit" value="YES" class="btn btn-danger col-md-3">
+                <input type="submit" name="submit" value="YES" class="btn btn-warning col-md-3">
                 <a href="academicPrograms.php" class="btn btn-success col-md-3">NO</a>
             </div>
         </form>

@@ -19,7 +19,7 @@
         <div class="col-md-12">
     <div class="card text-center">
         <div class="card-body">
-            <h5 class="card-title grey">SCIT COURSE ALLOCATION SYSTEM</h5>
+            <h5 class="card-title grey ">SCIT COURSE ALLOCATION SYSTEM</h5>
             <div class="row">
                 <div class="col-lg-5">
                     <div>

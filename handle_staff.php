@@ -39,7 +39,7 @@ if (isset($_POST["submit"])) {
 
         $result = mysqli_query($link, $sql);
         if ($result){
-            echo "<p class='alert alert-info'>You've been registered successfully</p>";
+            echo "<p class='alert alert-info'>Has been registered successfully!</p>";
         }else{
             echo "Error executing query".mysqli_error($link);
         }

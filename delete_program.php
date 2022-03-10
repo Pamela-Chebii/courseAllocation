@@ -38,7 +38,7 @@ if (isset($_POST["submit"]) and !empty($_POST["PId"])){
                     <input type="hidden" name="PId" value="<?php echo $_GET["PId"]; ?>">
                 </div>
                 <div class="p-2 text-center">
-                    <input type="submit" name="submit" value="YES" class="btn btn-danger col-md-3">
+                    <input type="submit" name="submit" value="YES" class="btn btn-warning col-md-3">
                     <a href="program.php" class="btn btn-success col-md-3">NO</a>
                 </div>
             </form>

@@ -141,8 +141,6 @@ include "connect.php";
 
                 echo "</table>";
 
-
-
             }else{
                 echo "<p class='alert alert-warning'>No records found</p>";
             }
