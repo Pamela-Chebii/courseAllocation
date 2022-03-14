@@ -102,7 +102,7 @@ include "connect.php";
 
         <?php
         include "connect.php";
-        $sql = "SELECT * FROM `unit`";
+        $sql = "SELECT * FROM `unit` ORDER BY year";
         $result = mysqli_query($link, $sql);
 
         if ($result){
@@ -128,8 +128,8 @@ include "connect.php";
                     echo "<td>".$row['term']."</td>";
                     echo "<td>
                         <a class='m-2' href='delete_unit.php?UId=".$row['UId']."'><span class='fa fa-trash'></span></a>
-                        <a class='m-2' href=''><span class='fa fa-pencil'></span></a>
-                        <a class='m-2' href=''><span class='fa fa-eye'></span></a>
+                        <a class='m-2' href='update_unit.php?UId=".$row['UId']."'><span class='fa fa-pencil'></span></a>
+                        <a class='m-2' href='view_unit.php?UId=".$row['UId']."'><span class='fa fa-eye'></span></a>
                      
 
                         </td>";

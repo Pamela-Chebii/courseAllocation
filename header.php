@@ -81,7 +81,13 @@ $username = $_SESSION["username"];
                 <li class="nav-item stylenav">
                     <a class="nav-link" href="unit.php">
                         <i class="fa fa-clone fa-lg text-white"></i>
-                        <span class="text-white">Units</span>
+                        <span class="text-white">Unit</span>
+                    </a>
+                </li>
+                <li class="nav-item stylenav">
+                    <a class="nav-link" href="">
+                        <i class="fa fa-arrows fa-lg text-white"></i>
+                        <span class="text-white">Service Unit</span>
                     </a>
                 </li>
                 <li class="nav-item stylenav">

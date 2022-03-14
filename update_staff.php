@@ -38,7 +38,7 @@ if (isset($_POST["update"])){
 
         $staffId = $_GET["staffId"];
 
-        $sql = "SELECT * FROM `staff` WHERE staffId=$staffId";
+        $sql = "SELECT  `staffId`,`pfNo`, `firstName`, `lastName`, `emailAddress`, `phoneNumber`, `role`, `status` FROM `staff` WHERE staffId=$staffId";
 
         $result = mysqli_query($link, $sql);
 

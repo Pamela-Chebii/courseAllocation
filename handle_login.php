@@ -56,7 +56,7 @@ if (isset($_POST['login'])){
                         header("location:Dashboard.php");
 
                     }
-                    elseif ($row["role"]=="Coordinator"){
+                    elseif ($row["role"]=="Director"){
                         $_SESSION["loggedin"]=true;
                         $_SESSION["staffId"]=$staffId;
                         $_SESSION["username"]=$firstName. " ".$lastName;

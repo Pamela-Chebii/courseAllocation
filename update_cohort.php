@@ -137,16 +137,5 @@ if (isset($_POST["update"])){
 }
 
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<div class="col-md-12">
-    <a class="btn btn-warning col-md-3" href="cohort.php">BACK</a>
-</div>
-</body>
-</html>
+
 

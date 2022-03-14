@@ -20,7 +20,7 @@ include "connect.php";
             Allocate Unit
         </button>
 
-        <a href="get_report.php" class=" m-1 btn btn-warning float-end">Get Report</a>
+<!--        <a href="get_report.php" class=" m-1 btn btn-warning float-end">Get Report</a>-->
 
 
         <!-- Modal -->
